@@ -1,5 +1,5 @@
 export const MY_REPOS_URL = "https://api.github.com/users/Qadermj0/repos";
-export const WEBSITE_REPO_ID = 681199946;
+export const WEBSITE_REPO_ID = 867000746;
 export const MINIMUM_QUANTITY = 1;
 export const MAXIMUM_QUANTITY = 1000;
 export const DEFAULT_SWIPER_SPEED = 1000;

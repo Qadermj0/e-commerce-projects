@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Qadermj0/e-commerce/assets/103026211/935f9fd0-1cfa-4164-9947-3ce38a8f1484" alt="E-Commerce Website Preview">
+  <img src="https://github.com/Qadermj0/e-commerce-projects/blob/main/website.webp" alt="E-Commerce Website Preview">
 </p>
 
 <h1 align="center">E-Commerce Website</h1>
@@ -9,7 +9,7 @@
 **1. Clone the repository:**
 
 ```bash
-git clone git@github.com:Qadermj0/e-commerce.git
+git clone git@github.com:Qadermj0/e-commerce-projects.git
 ```
 
 **2. Install dependencies:**

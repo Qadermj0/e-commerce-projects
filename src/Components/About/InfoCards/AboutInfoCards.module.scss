@@ -1,4 +1,4 @@
-@import "src/Styles/mixins";
+@import "../../../Styles/mixins.scss";
 
 .infoCardsSection {
   display: flex;
@@ -9,9 +9,10 @@
 }
 
 @include large {
+  
   .infoCardsSection {
     display: grid;
-    grid-template-columns: repeat(2, 300px);
+    grid-template-columns: repeat(4, 300px);
     justify-content: center;
     align-items: center;
     justify-items: center;
@@ -26,6 +27,19 @@
 
 @media (max-width: 640px) {
   .infoCardsSection {
-    grid-template-columns: 100%;
+    display: flex; // Use flexbox for better adaptability on very small screens
+    flex-direction: column; // Stack items vertically
+    align-items: center; // Center items
+    gap: 20px; // Adjust gap for smaller screens
+  }
+}
+@media (max-width: 1366px){
+  .infoCardsSection {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
   }
 }

@@ -19,7 +19,7 @@ const About = () => {
         <title>About</title>
         <meta
           name="description"
-          content="About us, Launched in 2015, Exclusive is South Asia’s premier online shopping marketplace, offering over 1 million products from 10,500 sellers and 300 brands to 3 million customers in Bangladesh."
+          content="About us, Launched in 2024, Exclusive is Middle East’s premier online shopping marketplace, offering over 1 million products from 10,500 sellers and 300 brands to 3 million customers in Bangladesh."
         />
       </Helmet>
 
